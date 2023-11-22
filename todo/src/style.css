@@ -76,6 +76,7 @@ body {
   list-style: none;
 }
 
+/* 인풋 체크 될 시 스타일 */
 .list li:has(input:checked) label {
   color: hsl(200, 20%, 40%);
 }
@@ -128,6 +129,7 @@ body {
   background: hsl(200, 100%, 80%);
 }
 
+/* 체크박스 체크될 시 */
 .list li:has(input:checked) label::before {
   content: "✔";
   background: hsl(200, 100%, 40%);
