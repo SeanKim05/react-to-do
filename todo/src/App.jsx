@@ -21,7 +21,7 @@ export default function App() {
       console.log(currentTodos);
       return [
         ...currentTodos,
-        { id: crypto.randomUUID(), title, completed: false },
+        { id: crypto.randomUUID(), title, completed: false12 },
       ];
     });
   }
