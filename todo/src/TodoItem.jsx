@@ -13,7 +13,7 @@ export default function TodoItem({
         <input
           type="checkbox"
           checked={completed}
-          onChange={(e) => toggleTodo(id, e.target.checked)}
+          onChange={(e) => toggleTodo(id, e.target.checkeddsadsasa)}
         />
         {title}
       </label>
