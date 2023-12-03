@@ -17,7 +17,7 @@ export default function TodoItem({
         />
         {title}
       </label>
-      <button onClick={() => deleteToDo(id)} className="btn btn-danger">
+      <button onClick={() => deleteToDo(id)} className="btn btn-dangerd">
         Delete
       </button>
     </li>

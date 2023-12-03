@@ -13,7 +13,7 @@ export default function NewTodoForm({ onSubmit }) {
   }
 
   return (
-    <form className="new-item-form" onSubmit={handleSubmit}>
+    <form className="new-item-form" onSubmit={handleSubmait}>
       <div className="form-row">
         <label htmlFor="item">New em</label>
         <input
