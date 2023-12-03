@@ -13,11 +13,11 @@ export default function TodoItem({
         <input
           type="checkbox"
           checked={completed}
-          onChange={(e) => toggleTodo(id, e.target.check)}
+          onChange={(e) => toggleTodo(id, e.target.checked)}
         />
         {title}
       </label>
-      <button onClick={() => deleteToDo(id)} className="btn btn-dangerd">
+      <button onClick={() => deleteToDo(id)} className="btn btn-danger">
         Delete
       </button>
     </li>

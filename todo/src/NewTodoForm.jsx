@@ -8,6 +8,7 @@ export default function NewTodoForm({ onSubmit }) {
     if (newItem === "") return;
 
     onSubmit(newItem);
+    s;
 
     setNewItem("");
   }
